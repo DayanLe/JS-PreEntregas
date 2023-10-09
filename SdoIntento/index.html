@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1a1e37f7dd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="path/to/atropos.css" />
+    <title>Academia Trópico</title>
+
+
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Clases</a></li>
+            <li><a href="#">Profes</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="iconoCarrito">
+            <a href="#" class="linkCarrito">
+                <svg class="iconoCarritoSvg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                    <style>
+                        svg {
+                            fill: #ff7b00
+                        }
+                    </style>
+                    <path
+                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                </svg>
+                <div class="total_carrito"></div>
+            </a>
+            <button name="redirect" class="button" onclick="redirect() ">Aagendar Clase</button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="header">
+            <div class="div_izq_header">
+                <h1>Academia Tropico</h1>
+                <h2>Swing, Sabor y Color</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quo laborum cupiditate
+                    doloribus sed, nostrum tempora unde officiis optio asperiores?</p>
+                <button>Leer más</button>
+            </div>
+            <div class="div_der_header">
+                <img src="./assets/pole/pole2.jpeg" alt="Pole Dancer">
+            </div>
+
+        </section>
+
+
+        <section class="why_pole_dance">
+            <div class="div_texto_h3">
+                <h3>¿Por qué practicar Pole Dance?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique natus quaerat doloremque
+                    veritatis possimus, animi fugiat magnam expedita in!</p>
+            </div>
+            <div class="cajas_razones">
+                <div class="uno">
+                    <div class="numero">
+                        <p>01</p>
+                    </div>
+                    <div class="p_div">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, in.</p>
+                    </div>
+                </div>
+                <div class="dos">
+                    <div class="numero">
+                        <p>02</p>
+                    </div>
+                    <div class="p_div">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, in.</p>
+                    </div>
+                </div>
+                <div class="tres">
+                    <div class="numero">
+                        <p>03</p>
+                    </div>
+                    <div class="p_div">
+
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, in.</p>
+                    </div>
+                </div>
+                <div class="cuatro">
+                    <div class="numero">
+                        <p>04</p>
+                    </div>
+                    <div class="p_div">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, in.</p>
+                    </div>
+                </div>
+                <div class="cinco">
+                    <div class="numero">
+                        <p>05</p>
+                    </div>
+                    <div class="p_div">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, in.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="agenda_cita">
+            <h3>Agenda ahora y obten un descuento del 20%</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, iusto.</p>
+            <form action="" method="">
+                <input type="text" name="text" placeholder="Nombre" class="input">
+                <input type="tel" name="tel" placeholder="Telefono" class="input">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="seccion_clases">
+            <h3 class="h3">Nuetras clases</h3>
+            <p class="p_clases">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea a consectetur quis voluptas
+                in illum velit itaque fugit quisquam at.</p>
+            <div class="card_padre">
+                <div class="box">
+                    <img src="./assets/pole/Pole17.jpeg" alt="">
+                    <h4>Pole Sport</h4>
+                    <p>$100.000</p>
+                    <button type="submit" id="agregar_al_carrito" class="comprar-btn"
+                        onclick="agregarAlCarrito(0)">Comprar</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/Telas_files/Flex.jpg" alt="">
+                    <h4>Flex</h4>
+                    <P>$80.000</P>
+                    <button type="submit" class="comprar-btn" onclick="agregarAlCarrito(1)">Comprar</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/pole/Pole17.jpeg" alt="">
+                    <h4>Exotic Dance</h4>
+                    <P>120.000</P>
+                    <button type="submit" class="comprar-btn" onclick="agregarAlCarrito(2)">Comprar</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/pole/Pole19.jpg" alt="">
+                    <h4>Acrotelas</h4>
+                    <P>$90.000</P>
+                    <button type="submit" class="comprar-btn" onclick="agregarAlCarrito(3)">Comprar</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/pole/Pole14.jpg" alt="">
+                    <h4>Twerk</h4>
+                    <P>$50.000</P>
+                    <button type="submit" class="comprar-btn" onclick="agregarAlCarrito(4)">Comprar</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/pole/Pole12.jpeg" alt="">
+                    <h4>Pole Kids</h4>
+                    <P>$100.000</P>
+                    <button type="submit" class="comprar-btn" onclick="agregarAlCarrito(6)">Comprar</button>
+                </div>
+            </div>
+            <!-- carrito -->
+            <div id="carrito">
+                <h2>Carrito de Compras</h2>
+                <ul id="lista-carrito"></ul>
+                <p>Total: $<span id="total">0</span></p>
+                <button id="eliminarTodoBtn" onclick="eliminarTodo()">Eliminar Todo</button>
+                <button id="eliminarAnteriorBtn" onclick="eliminarAnterior()">Eliminar Anterior</button>
+                <button id="seguirComprandoBtn" onclick="seguirComprando()">Seguir Comprando</button>
+            </div>
+
+        </section>
+
+        <section class="seccion_profes">
+            <h3 class="h3">Nuestras profes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorem quaerat, eveniet voluptatum
+                tempore inventore eaque recusandae nemo voluptatem consequuntur.</p>
+
+            <div class="profes_padre">
+                <div class="hijo_profes">
+                    <img src="./assets/pole/profe.jpeg" alt="">
+                    <h4>Lore</h4>
+                    <p>Profe de Pole Sport</p>
+                </div>
+
+                <div class="hijo_profes">
+                    <img src="./assets/pole/profe.jpeg" alt="">
+                    <h4>Luisa</h4>
+                    <p>Profe de Exotic y Flex</p>
+                </div>
+
+                <div class="hijo_profes">
+                    <img src="./assets/pole/profe.jpeg" alt="">
+                    <h4>Sofi</h4>
+                    <p>Profe de Acrotelas</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Todos los derechos reservados - 2023
+    </footer>
+
+
+
+
+
+
+    <script src="./js/aos.js"></script>
+    <script> AOS.init();    </script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

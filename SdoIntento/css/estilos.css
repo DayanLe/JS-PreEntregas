@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.menu li a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div_izq_header {
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 20px;
+}
+
+.div_izq_header h1 {
+  font-size: 3rem;
+
+}
+
+.div_izq_header h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.div_izq_header p {
+  padding-bottom: 20px;
+}
+
+.div_izq_header button {
+  width: 30%;
+}
+
+.why_pole_dance {
+  width: 100%;
+}
+
+.div_der_header {
+  width: 55%;
+  height: 50vh;
+  display: inline-block;
+  align-items: end;
+}
+
+.div_der_header img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 5% 0 0 5%;
+}
+
+.div_texto_h3 {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.div_texto_h3 h3,
+.h3 {
+  font-size: 2.5rem;
+}
+
+.div_texto_h3 p {
+  width: 60%;
+}
+
+.cajas_razones {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco,
+.seis {
+  width: 70%;
+  display: flex;
+}
+
+.numero {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.agenda_cita {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.agenda_cita form {
+  margin-top: 1rem;
+}
+
+.input {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #e8e8e8;
+  box-shadow: 6px 6px 12px #ffffff,
+    -6px -6px 12px #c5c5c5;
+  font-size: medium;
+  font-weight: bold;
+  max-width: 200px;
+  margin-right: 1rem;
+}
+
+.input:focus {
+  outline-color: white;
+  place-content: "Enter your message!";
+}
+
+button {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0em, 0.2em);
+}
+
+.h3,
+.p_clases {
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.card_padre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
+  align-items: baseline;
+  justify-items: center;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.box img {
+  width: 100%;
+  object-fit: fill;
+  border-radius: 5%;
+}
+
+.profes_padre{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+
+.hijo_profes{
+  width: 30%;
+  height: 30%;
+
+}
+
+.hijo_profes p, h4{
+  text-align: center;
+}
+
+.hijo_profes img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.seccion_profes{
+  margin-top: 5rem;
+}
